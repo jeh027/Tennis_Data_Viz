@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import * as d3 from 'd3';
+  import 'd3-transition';
 
   const margin = {top: 20, right: 30, bottom: 50, left: 50}, // margins just for now
     width = 510 - margin.left - margin.right,
