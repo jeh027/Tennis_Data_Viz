@@ -2,7 +2,7 @@
   <h1 id="intro-hed">Title Of The Article</h1>
   <h1 class="intro-sub">Subtitle of the article.</h1>
   <h3 id="intro__date">
-    <a href="https://twitter.com/" target="_blank">Author Name</a>, Month Year
+    <a href="https://github.com/dannytylee" target="_blank">Danny Lee</a> & <a href="https://github.com/jeh027" target="_blank">Jesse Huang</a>, May 2024
   </h3>
 </section>
 
