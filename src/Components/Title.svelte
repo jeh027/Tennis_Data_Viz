@@ -22,7 +22,6 @@
     text-transform: uppercase;
     max-width: 100%;
     margin: auto;
-    /* color: var(--squid-ink); */
   }
 
   .intro-sub {
