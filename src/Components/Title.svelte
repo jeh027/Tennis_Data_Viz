@@ -1,5 +1,5 @@
 <section id="intro">
-  <h1 id="intro-hed">Hard Courts, how did we get here?</h1>
+  <h1 id="intro-head">Hard Courts, how did we get here?</h1>
   <h1 class="intro-sub">The Evolution and Impact of Tennis Court Surfaces on the Game and Player Performance</h1>
   <h3 id="intro__date">
     <a href="https://github.com/dannytylee" target="_blank">Danny Lee</a> & <a href="https://github.com/jeh027" target="_blank">Jesse Huang</a>, June 2024
