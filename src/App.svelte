@@ -8,6 +8,8 @@
   import Conclusion from "./Components/Conclusion.svelte";
   import Resources from "./Components/Resources.svelte";
   import ScrollSide from "./Components/ScrollSide.svelte";
+  import Friction from "./Components/Friction.svelte";
+  import Restitution from "./Components/Restitution.svelte";
 </script>
 
 <Meta />
@@ -15,6 +17,8 @@
 <Intro />
 <TextAndMathEquations />
 <ScrollSide />
+<Friction />
+<Restitution />
 <LineChart />
 <ScrollCenter />
 <Conclusion />

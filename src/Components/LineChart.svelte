@@ -404,14 +404,14 @@
 
 <select id="selectButton"></select>
 
-<div class="container">
+<div class="hist_container">
   <div id="my_dataviz" class="chart"></div>
   <div id="my_dataviz_2" class="chart"></div>
   <div id="my_dataviz_3" class="chart"></div>
 </div>
 
 <style>
-  .container {
+  .hist_container {
     display: flex;
     justify-content: center;
     align-items: center;
