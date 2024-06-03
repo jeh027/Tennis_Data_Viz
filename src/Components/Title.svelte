@@ -14,7 +14,7 @@
     padding-top: 1rem;
   }
 
-  #intro-hed {
+  #intro-head {
     font-size: 4rem;
     margin-top: 5px;
     margin-bottom: 0;
@@ -22,7 +22,7 @@
     text-transform: uppercase;
     max-width: 100%;
     margin: auto;
-    color: var(--squid-ink);
+    /* color: var(--squid-ink); */
   }
 
   .intro-sub {
