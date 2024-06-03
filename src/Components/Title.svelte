@@ -22,6 +22,7 @@
     text-transform: uppercase;
     max-width: 100%;
     margin: auto;
+    /* color: var(--squid-ink); */
   }
 
   .intro-sub {
@@ -48,7 +49,7 @@
 
   /* mobile */
   @media screen and (max-width: 950px) {
-    #intro-hed {
+    #intro-head {
       font-size: 3.5rem;
     }
 
