@@ -106,7 +106,7 @@
     </div>
   </div>
   <br /><br />
-  <p class="body-text">And that's the end of our scrolly.</p>
+  <!-- <p class="body-text">And that's the end of our scrolly.</p> -->
 </section>
 
 <style>

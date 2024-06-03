@@ -9,11 +9,9 @@
         height5 = 400 - margin5.top - margin5.bottom;
 
     const restitution_data = [
-        {name: 'Slow (0-29)', min: 0.9, q1: 0.92, median: 0.94, q3: 0.96, max: 0.98}, // Slow (0-29)
-        {name: 'Medium-slow (30-34)', min: 0.86, q1: 0.89, median: 0.92, q3: 0.95, max: 0.98}, // Medium-slow (30-34)
-        {name: 'Medium (35-39)', min: 0.82, q1: 0.86, median: 0.89, q3: 0.93, max: 0.96}, // Medium (35-39)
-        {name: 'Medium-fast (40-44)', min: 0.78, q1: 0.82, median: 0.86, q3: 0.90, max: 0.94}, // Medium-fast (40-44)
-        {name: 'Fast (45+)', min: 0.7, q1: 0.75, median: 0.8, q3: 0.85, max: 0.9}] // Fast (45+)
+        {name: 'Clay', min: 0.9, q1: 0.92, median: 0.94, q3: 0.96, max: 0.98}, // Slow (0-29)
+        {name: 'Hard', min: 0.86, q1: 0.89, median: 0.92, q3: 0.95, max: 0.98}, // Medium-slow (30-34) this is fine for now
+        {name: 'Grass', min: 0.7, q1: 0.75, median: 0.8, q3: 0.85, max: 0.9}] // Fast (45+)
 
     onMount(() => {
         // Append SVG container to the component's element
@@ -114,7 +112,7 @@
             .attr("text-anchor", "end")
             .attr("x", width5 - 150)
             .attr("y", height5 + 40)
-            .text("Court Pace Index (CPI)");
+            .text("Tennis Court Surface");
             
         svg5.append("text")
             .attr("class", "y label")
@@ -129,7 +127,7 @@
 
 
 <div class="vertical_container">  
-    <h3>Tennis Surface Coefficient of Restitution</h3>
+    <h3>Tennis Court Surface Coefficient of Restitution</h3>
     <div id="my_dataviz_5" class="chart"></div>
 </div>
 

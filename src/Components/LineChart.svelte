@@ -374,7 +374,7 @@
     svg3.append("circle").attr("cx",310).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
     svg3.append("text").attr("x", 330).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
     svg3.append("text").attr("x", 330).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 330).attr("y", 80).text("Acrylic").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 330).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
     svg3.append("text").attr("x", 285).attr("y", -10).text("Court Surfaces").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
 
     // x and y axis labels
@@ -414,7 +414,7 @@
   .hist_container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: center;
     align-items: center;
   }
 

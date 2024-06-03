@@ -8,11 +8,9 @@
         height4 = 400 - margin4.top - margin4.bottom;
 
     let friction_data = [
-        {name: 'Slow (0-29)', min: 0.58, q1: 0.62, median: 0.66, q3: 0.7, max: 0.74}, // Slow (0-29)
-        {name: 'Medium-slow (30-34)', min: 0.56, q1: 0.6, median: 0.64, q3: 0.68, max: 0.72}, // Medium-slow (30-34)
-        {name: 'Medium (35-39)', min: 0.54, q1: 0.59, median: 0.62, q3: 0.68, max: 0.72}, // Medium (35-39)
-        {name: 'Medium-fast (40-44)', min: 0.52, q1: 0.56, median: 0.61, q3: 0.655, max: 0.7}, // Medium-fast (40-44)
-        {name: 'Fast (45+)', min: 0.4, q1: 0.45, median: 0.5, q3: 0.55, max: 0.6} // Fast (45+)
+        {name: 'Clay', min: 0.58, q1: 0.62, median: 0.66, q3: 0.7, max: 0.74}, // Slow (0-29)
+        {name: 'Hard', min: 0.52, q1: 0.56, median: 0.61, q3: 0.655, max: 0.7}, // Medium-fast (40-44) this is fine for now
+        {name: 'Grass', min: 0.4, q1: 0.45, median: 0.5, q3: 0.55, max: 0.6} // Fast (45+)
     ]
 
     onMount(() => {
@@ -114,7 +112,7 @@
             .attr("text-anchor", "end")
             .attr("x", width4 - 150)
             .attr("y", height4 + 40)
-            .text("Court Pace Index (CPI)");
+            .text("Tennis Court Surface");
             
         svg4.append("text")
             .attr("class", "y label")
@@ -130,7 +128,7 @@
 
 
 <div class="vertical_container">
-    <h3>Tennis Surface Coefficient of Friction</h3>
+    <h3>Tennis Court Surface Coefficient of Friction</h3>
     <div id="my_dataviz_4" class="chart"></div>
 </div>
 

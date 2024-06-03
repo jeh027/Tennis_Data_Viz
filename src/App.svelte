@@ -15,11 +15,11 @@
 <Meta />
 <Title />
 <Intro />
-<TextAndMathEquations />
+<!-- <TextAndMathEquations /> -->
 <ScrollSide />
 <Friction />
 <Restitution />
 <LineChart />
-<ScrollCenter />
+<!-- <ScrollCenter /> -->
 <Conclusion />
 <Resources />
