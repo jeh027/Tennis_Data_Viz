@@ -117,20 +117,36 @@
         svg4.append("text")
             .attr("class", "y label")
             .attr("text-anchor", "end")
-            .attr("x", -50)
+            .attr("x", -80)
             .attr("y", -50)
             .attr("dy", ".75em")
             .attr("transform", "rotate(-90)")
-            .text("Coefficient of Friction (Speed)");
+            .text("Coefficient of Friction");
         });
 
 </script>
 
 
+<h2 class="body-header">How Does The Tennis Court Surface Affect The Speed Of The Ball?</h2>
+
 <div class="vertical_container">
     <h3>Tennis Court Surface Coefficient of Friction</h3>
     <div id="my_dataviz_4" class="chart"></div>
 </div>
+
+<p class="body-text">
+    The coefficient of friction is a number that expresses how materials interact and is usually between 0 and 1. A coefficient 
+    of friction value of 0 means that there is no friction between the objects. On the other hand, a coefficient of friction 
+    closer to 1 provides greater slip resistance, and surfaces with a coefficient of friction of 0.6 or higher are generally 
+    rough and provide grip.
+</p>
+<br>
+<p class="body-text">
+    Courts with a higher coefficient of friction, like clay courts, cause greater deceleration of the ball after 
+    bouncing due to increased friction force. This results in a slower ball speed after the bounce compared to lower 
+    friction surfaces like grass courts.
+</p>
+
 
 <style>
     .chart {
@@ -144,6 +160,7 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
     }
 </style>
 

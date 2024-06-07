@@ -82,7 +82,7 @@
 
 </script>
 
-<h2 class="body-header">Side Scrolly Example</h2>
+<h2 class="body-header">Brief History Of Each Surface</h2>
 <p class="body-text">
   Here's an example of a typical side-scroller. It's responsive, and will fold
   to an overlap scroll if the screen gets small enough:
@@ -108,7 +108,7 @@
           <line x1="85%" y1="-150%" x2="85%" y2="150%" stroke="white" stroke-width="2"/> <!-- right vertical -->
           <line x1="15%" y1="40%" x2="85%" y2="40%" stroke="white" stroke-width="2"/> <!-- middle horizontal -->
           <line x1="50%" y1="150%" x2="50%" y2="40%" stroke="white" stroke-width="2"/> <!-- center vertical -->
-          <line x1="50%" y1="-150%" x2="50%" y2="-10%" stroke="white" stroke-width="2"/> <!-- vertical -->
+          <line x1="50%" y1="-150%" x2="50%" y2="-10%" stroke="white" stroke-width="2"/> <!-- short vertical -->
         </svg>
       </div>
       <div class="chart-two">
@@ -118,7 +118,7 @@
           <line x1="85%" y1="-150%" x2="85%" y2="150%" stroke="white" stroke-width="2"/> <!-- right vertical -->
           <line x1="15%" y1="60%" x2="85%" y2="60%" stroke="white" stroke-width="2"/> <!-- middle horizontal -->
           <line x1="50%" y1="-150%" x2="50%" y2="60%" stroke="white" stroke-width="2"/> <!-- center vertical -->
-          <line x1="50%" y1="150%" x2="50%" y2="110%" stroke="white" stroke-width="2"/> <!-- vertical -->
+          <line x1="50%" y1="150%" x2="50%" y2="110%" stroke="white" stroke-width="2"/> <!-- short vertical -->
         </svg>
       </div>
     </div>

@@ -117,19 +117,37 @@
         svg5.append("text")
             .attr("class", "y label")
             .attr("text-anchor", "end")
-            .attr("x", -20)
+            .attr("x", -65)
             .attr("y", -50)
             .attr("dy", ".75em")
             .attr("transform", "rotate(-90)")
-            .text("Coefficient of Restitution (Bounce)");
-    }); // when I refresh, the box plot duplicates; why?
+            .text("Coefficient of Restitution");
+    });
 </script>
 
+
+<h2 class="body-header">How Does The Tennis Court Surface Affect The Bounce Of The Ball?</h2>
 
 <div class="vertical_container">  
     <h3>Tennis Court Surface Coefficient of Restitution</h3>
     <div id="my_dataviz_5" class="chart"></div>
 </div>
+
+<p class="body-text">
+    The coefficient of restitution measures the elasticity of the collision between the ball and the court surface. It is 
+    defined as the ratio of the ball's speed after the bounce to its speed before the bounce. A higher coefficient of restitution
+    indicates a more elastic collision, resulting in a higher bounce.
+</p>
+<br>
+<p class="body-text">
+    Grass courts have a low coefficient of restitution, meaning they are less bouncy. The ball tends to bounce lower and faster, 
+    with a lower exit angle that is roughly equivalent to the entry angle. Clay courts have a high coefficient of restitution, resulting 
+    in a higher and slower bounce. The ball tends to rebound at a higher angle compared to its entry angle. This higher bounce gives 
+    players more time to react and often results in longer rallies. Hard courts, such as those made of concrete or synthetic materials, have 
+    a moderate coefficient of restitution. The bounce is higher than on grass but lower than on clay, providing a balance between speed and 
+    height of the bounce.
+</p>
+
 
 <style>
     .chart {
@@ -143,5 +161,6 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
     }
 </style>
