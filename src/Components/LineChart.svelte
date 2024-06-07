@@ -3,7 +3,7 @@
   import * as d3 from 'd3';
   import 'd3-transition';
 
-  const margin = {top: 20, right: 30, bottom: 50, left: 50}, // margins just for now
+  const margin = {top: 20, right: 30, bottom: 50, left: 60}, // margins just for now
     width = 510 - margin.left - margin.right,
     height = 450 - margin.top - margin.bottom;
 
@@ -129,19 +129,19 @@
       .attr("x", width - 120)
       .attr("y", height + 40)
       .text("Aces Per Tournament");
-      
+        
     svg.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("x", 0)
-      .attr("y", 6)
+      .attr("x", -80)
+      .attr("y", -45)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Frequency");
+      .text("Number of Tournaments");
   });
 
 
-  const margin2 = {top: 20, right: 30, bottom: 50, left: 50},
+  const margin2 = {top: 20, right: 30, bottom: 50, left: 60},
     width2 = 510 - margin2.left - margin2.right,
     height2 = 450 - margin2.top - margin2.bottom;
 
@@ -251,20 +251,20 @@
       .attr("x", width2 - 120)
       .attr("y", height2 + 40)
       .text("Aces Per Tournament");
-      
+        
     svg2.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("x", 0)
-      .attr("y", 6)
+      .attr("x", -80)
+      .attr("y", -45)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Frequency");
+      .text("Number of Tournaments");
   });
 
 
   // set the dimensions and margins of the graph
-  const margin3 = {top: 20, right: 30, bottom: 50, left: 50},
+  const margin3 = {top: 20, right: 30, bottom: 50, left: 60},
     width3 = 510 - margin3.left - margin3.right,
     height3 = 450 - margin3.top - margin3.bottom;
   
@@ -369,13 +369,13 @@
     })
 
     // Handmade legend
-    svg3.append("circle").attr("cx",310).attr("cy",20).attr("r", 6).style("fill", "#3AA536")
-    svg3.append("circle").attr("cx",310).attr("cy",50).attr("r", 6).style("fill", "#404080")
-    svg3.append("circle").attr("cx",310).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
-    svg3.append("text").attr("x", 330).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 330).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 330).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 285).attr("y", -10).text("Court Surfaces").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
+    svg3.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#3AA536")
+    svg3.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#404080")
+    svg3.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
+    svg3.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 390).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 315).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
 
     // x and y axis labels
     svg3.append("text")
@@ -384,25 +384,27 @@
       .attr("x", width3 - 120)
       .attr("y", height3 + 40)
       .text("Aces Per Tournament");
-      
+        
     svg3.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("x", 0)
-      .attr("y", 6)
+      .attr("x", -80)
+      .attr("y", -45)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Frequency");
+      .text("Number of Tournaments");
   });
 </script>
 
-<h1 class="body-header">Responsive, Static Chart Example</h1>
+<h1 class="body-header">Individual Player Exploratory Analysis</h1>
 <p class="body-text">
   This component is an example of a responsive chart built with Svelte and
   D3.js.
 </p>
 
-<select id="selectButton"></select>
+<div class="CenterButton">
+  <select id="selectButton"></select>
+</div>
 
 <div class="hist_container">
   <div id="my_dataviz" class="chart"></div>
@@ -416,6 +418,11 @@
     justify-content: center;
     flex-direction: center;
     align-items: center;
+  }
+
+  .CenterButton {
+      display: flex;
+      justify-content: center;
   }
 
   #selectButton {

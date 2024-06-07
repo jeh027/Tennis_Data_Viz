@@ -82,7 +82,7 @@
 
 </script>
 
-<h2 class="body-header">Brief History Of Each Surface</h2>
+<h2 class="body-header">Brief History On Each Surface</h2>
 <p class="body-text">
   Here's an example of a typical side-scroller. It's responsive, and will fold
   to an overlap scroll if the screen gets small enough:
