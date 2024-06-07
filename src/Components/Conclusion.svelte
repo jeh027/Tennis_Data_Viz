@@ -1,17 +1,22 @@
 <section id="conclusion">
-  <h1 class="body-header">Concluding Text</h1>
+  <h1 class="body-header">Conclusion</h1>
   <p class="body-text">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos voluptas dicta
-    blanditiis doloremque dolorum asperiores fugiat non, obcaecati maiores id,
-    voluptatum possimus libero iure laudantium dignissimos corrupti? Iure omnis
-    consectetur aperiam ipsam quod eum quas similique atque laboriosam ex
-    accusantium quaerat laudantium, est a libero sed cumque odio perspiciatis
-    enim, sequi, corrupti alias beatae nulla. Iure est ut dignissimos debitis
-    optio quasi vel distinctio officiis doloremque, ad voluptates, omnis nam
-    corporis, aut exercitationem ex excepturi tempore et modi unde alias nemo
-    accusantium. Tempore odio nulla ex ad ut molestiae unde minima ipsam
-    aliquid, omnis, labore commodi aliquam incidunt ratione autem?
+    The evolution of tennis court surfaces from grass to clay and hard courts has significantly impacted the game's dynamics and player performance. Each surface presents unique challenges and advantages, influencing how players develop their skills and strategies. Grass courts favor players with quick reflexes and strong serve-and-volley tactics, while clay courts require endurance and precision. Hard courts offer a balanced playing field, accommodating a wide range of playing styles.
   </p>
+  <br>
+  <p class="body-text">
+    The adaptability and versatility of players across different surfaces have shaped the careers of many tennis legends. Roger Federer's grace on grass, Rafael Nadal's dominance on clay, and Novak Djokovic's resilience on hard courts highlight the intricate relationship between surface and success. As the sport continues to evolve, the interplay between court surfaces and player performance will remain a fascinating aspect of tennis.
+  </p>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+
+  
 </section>
 
 <style>
