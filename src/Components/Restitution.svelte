@@ -133,20 +133,31 @@
     <div id="my_dataviz_5" class="chart"></div>
 </div>
 
+<br>
 <p class="body-text">
-    The coefficient of restitution measures the elasticity of the collision between the ball and the court surface. It is 
-    defined as the ratio of the ball's speed after the bounce to its speed before the bounce. A higher coefficient of restitution
-    indicates a more elastic collision, resulting in a higher bounce.
+    The bounce of the ball on different tennis court surfaces is another critical factor that affects gameplay. The coefficient of restitution measures this aspect by indicating how elastic the collision between the ball and the surface is. A higher coefficient of restitution means a higher, more elastic bounce.
 </p>
 <br>
 <p class="body-text">
-    Grass courts have a low coefficient of restitution, meaning they are less bouncy. The ball tends to bounce lower and faster, 
-    with a lower exit angle that is roughly equivalent to the entry angle. Clay courts have a high coefficient of restitution, resulting 
-    in a higher and slower bounce. The ball tends to rebound at a higher angle compared to its entry angle. This higher bounce gives 
-    players more time to react and often results in longer rallies. Hard courts, such as those made of concrete or synthetic materials, have 
-    a moderate coefficient of restitution. The bounce is higher than on grass but lower than on clay, providing a balance between speed and 
-    height of the bounce.
+    Grass courts have a low coefficient of restitution, leading to lower and faster bounces. The ball tends to skim off the surface, maintaining a low trajectory that mirrors its entry angle. This characteristic favors players with powerful serves and swift net play, as the low bounce keeps rallies short and demands quick reflexes. The legendary Martina Navratilova leveraged this to her advantage, winning nine Wimbledon titles with her exceptional net play.
 </p>
+<br>
+<p class="body-text">
+    Conversely, clay courts boast a high coefficient of restitution, causing the ball to bounce higher and slower. This higher bounce provides players with more time to react, encouraging longer rallies and a baseline-oriented game. The high rebound angle forces players to adopt a different strategy, focusing on stamina and consistent groundstrokes. Rafael Nadal’s unparalleled success on clay, including his record 14 French Open titles, is a testament to his ability to harness the high bounce to wear down opponents with relentless precision.
+</p>
+<br>
+<p class="body-text">
+    Hard courts offer a moderate coefficient of restitution, creating a balanced bounce that neither skims like grass nor soars like clay. This versatility makes hard courts suitable for a wide range of playing styles. Players must be adaptable, ready to transition between offensive and defensive strategies. Serena Williams’ dominance on hard courts, with multiple Grand Slam victories, highlights her ability to excel on a surface that demands a well-rounded skill set.
+</p>
+
+
+
+<h2 class="body-header">Why Do These Differences Matter?</h2>
+<br>
+<p class="body-text">
+    The differences in speed and bounce across various court surfaces are not just technical details; they fundamentally shape the way tennis is played. These variations influence match strategies, player training regimes, and even the physical and mental attributes required for success on each surface. Understanding and mastering these nuances allows players to tailor their game, develop specialized skills, and exploit the unique characteristics of each surface to gain a competitive edge. Whether it’s the fast, skidding balls of grass courts, the high, looping bounces of clay, or the balanced play of hard courts, the interaction between surface and ball adds layers of complexity and excitement to the sport of tennis.
+</p>
+
 
 
 <style>

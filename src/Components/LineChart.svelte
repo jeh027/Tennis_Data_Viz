@@ -398,8 +398,7 @@
 
 <h1 class="body-header">Exploration</h1>
 <p class="body-text">
-  This component is an example of a responsive chart built with Svelte and
-  D3.js.
+  Analyze the differences between surfaces for the distribution of aces per Tournament for your favorite players below!
 </p>
 
 <div class="header-container">

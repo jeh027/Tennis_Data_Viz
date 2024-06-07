@@ -10,52 +10,52 @@
   $: steps = [
     `<h1 class='step-title'>Grass Surface</h1>
       <p>
-      Origins: Grass courts are the oldest surface in tennis, originating in the mid-19th century in England, where lawn tennis evolved from the earlier game of real tennis. The first official tennis tournament, the Wimbledon Championships, was held on grass in 1877.
+      Grass courts are the oldest surface in tennis, originating in the mid-19th century in England, where lawn tennis evolved from the earlier game of real tennis. The first official tennis tournament, the Wimbledon Championships, was held on grass in 1877.
       </p>
       <br>
       <p>
-      Popularization: Grass courts were widely popular in the early years of tennis, especially in Britain, Australia, and the United States. Major tournaments like Wimbledon, the US Open, and the Australian Open were initially played on grass.
+      Grass courts were widely popular in the early years of tennis, especially in Britain, Australia, and the United States. Major tournaments like Wimbledon, the US Open, and the Australian Open were initially played on grass.
       </p>
       <br>
       <p>
-      Modern Usage: Today, grass courts are less common due to their high maintenance costs and susceptibility to weather conditions. However, Wimbledon remains the most prestigious grass court tournament, and the grass court season includes events like the Queen's Club Championships and the Halle Open.
+      Today, grass courts are less common due to their high maintenance costs and susceptibility to weather conditions. However, Wimbledon remains the most prestigious grass court tournament, and the grass court season includes events like the Queen's Club Championships and the Halle Open.
       </p>
       <br>
       <p>
-      Notable Players: Roger Federer is renowned for his success on grass, winning a record eight Wimbledon titles. Martina Navratilova holds the record for the most Wimbledon singles titles with nine, showcasing her dominance on this surface.
-      </p>`,
+      Roger Federer is renowned for his success on grass, winning a record eight Wimbledon titles. Martina Navratilova holds the record for the most Wimbledon singles titles with nine, showcasing her dominance on this surface.
+      </p><br>`,
     `<h1 class='step-title'>Clay Surface</h1>
       <p>
-        Origins: Clay courts emerged in the late 19th century in France, with early courts made by covering grass courts with a layer of crushed brick. The French Championships, now the French Open, began on clay in 1891.
+        Clay courts emerged in the late 19th century in France, with early courts made by covering grass courts with a layer of crushed brick. The French Championships, now the French Open, began on clay in 1891.
       </p>
       <br>
       <p>
-        Popularization: Clay courts gained popularity in Europe and Latin America, where the climate and cost made them a practical alternative to grass. The surface became integral to tennis culture in countries like Spain, Italy, and Argentina.
+        Clay courts gained popularity in Europe and Latin America, where the climate and cost made them a practical alternative to grass. The surface became integral to tennis culture in countries like Spain, Italy, and Argentina.
       </p>
       <br>
       <p>
-        Modern Usage: Clay courts are prevalent on the ATP and WTA tours, particularly during the European clay court season leading up to the French Open. Key tournaments include the Monte Carlo Masters, Madrid Open, and Italian Open.
+        Clay courts are prevalent on the ATP and WTA tours, particularly during the European clay court season leading up to the French Open. Key tournaments include the Monte Carlo Masters, Madrid Open, and Italian Open.
       </p>
       <br>
       <p>
-        Notable Players: Rafael Nadal, known as the "King of Clay," has dominated the French Open with a record 14 titles. Chris Evert is a notable female player on clay, with seven French Open titles to her name.
-      </p>`,
+        Rafael Nadal, known as the "King of Clay," has dominated the French Open with a record 14 titles. Chris Evert is a notable female player on clay, with seven French Open titles to her name.
+      </p><br>`,
     `<h1 class='step-title'>Hard Surface</h1>
       <p>
-        Origins: Hard courts became prominent in the mid-20th century as a durable and low-maintenance alternative to grass and clay. The US Open switched from grass to clay in 1975 and then to hard courts in 1978, while the Australian Open followed suit in 1988.
+        Hard courts became prominent in the mid-20th century as a durable and low-maintenance alternative to grass and clay. The US Open switched from grass to clay in 1975 and then to hard courts in 1978, while the Australian Open followed suit in 1988.
       </p>
       <br>
       <p>
-        Popularization: Hard courts quickly gained popularity worldwide due to their consistent playing surface and relatively low maintenance. They became the standard surface for many tennis facilities, both professional and recreational.
+        Hard courts quickly gained popularity worldwide due to their consistent playing surface and relatively low maintenance. They became the standard surface for many tennis facilities, both professional and recreational.
       </p>
       <br>
       <p>
-        Modern Usage: Hard courts are now the most common surface on the professional tour. They are used for two of the four Grand Slam tournaments—the US Open and the Australian Open—and numerous ATP and WTA events throughout the year.
+        Hard courts are now the most common surface on the professional tour. They are used for two of the four Grand Slam tournaments—the US Open and the Australian Open—and numerous ATP and WTA events throughout the year.
       </p>
       <br>
       <p>
-        Notable Players: Novak Djokovic has excelled on hard courts, winning multiple titles at both the Australian Open and the US Open. Serena Williams is another standout player, with numerous Grand Slam victories on hard courts.
-      </p>`,
+        Novak Djokovic has excelled on hard courts, winning multiple titles at both the Australian Open and the US Open. Serena Williams is another standout player, with numerous Grand Slam victories on hard courts.
+      </p><br>`,
   ];
 
   const target2event = {
@@ -84,8 +84,7 @@
 
 <h2 class="body-header">Brief History On Each Surface</h2>
 <p class="body-text">
-  Here's an example of a typical side-scroller. It's responsive, and will fold
-  to an overlap scroll if the screen gets small enough:
+  The journey and innovation of tennis court surfaces span over many years, reflecting the sport's rich history and evolution. From the lush lawns of 19th-century England to the resilient hard courts of today, each surface has left an indelible mark on the game, influencing its development and the way it is played. In this section, we explore the origins, popularization, and modern usage of grass, clay, and hard courts, shedding light on their unique characteristics and contributions to tennis.
 </p>
 <br>
 <br>

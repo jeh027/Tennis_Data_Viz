@@ -134,17 +134,21 @@
     <div id="my_dataviz_4" class="chart"></div>
 </div>
 
+<br>
 <p class="body-text">
-    The coefficient of friction is a number that expresses how materials interact and is usually between 0 and 1. A coefficient 
-    of friction value of 0 means that there is no friction between the objects. On the other hand, a coefficient of friction 
-    closer to 1 provides greater slip resistance, and surfaces with a coefficient of friction of 0.6 or higher are generally 
-    rough and provide grip.
+    The type of tennis court surface significantly influences the speed of the ball, shaping the game's dynamics and the strategies players employ. The coefficient of friction is a key factor in this context. It measures how much grip or resistance a surface offers to the ball's motion. A surface with a higher coefficient of friction, such as clay, causes the ball to decelerate more after bouncing. This deceleration results from the increased friction force between the ball and the court, leading to a slower ball speed after the bounce.
 </p>
 <br>
 <p class="body-text">
-    Courts with a higher coefficient of friction, like clay courts, cause greater deceleration of the ball after 
-    bouncing due to increased friction force. This results in a slower ball speed after the bounce compared to lower 
-    friction surfaces like grass courts.
+    Imagine a match on a clay court: the ball slows down, giving players more time to reach it, which often results in longer, more strategic rallies. Players who excel on clay, like Rafael Nadal, master the art of constructing points with patience and precision, using the slower surface to their advantage.
+</p>
+<br>
+<p class="body-text">
+    In contrast, grass courts have a lower coefficient of friction, causing the ball to retain more of its speed after bouncing. The slick, low-friction surface makes the ball skid and shoot through the court. Picture the fast-paced, serve-and-volley style of play typical at Wimbledon, where players like Roger Federer use the speed to dominate with quick, aggressive shots.
+</p>
+<br>
+<p class="body-text">
+    Hard courts fall in the middle, offering a balanced coefficient of friction. This balance allows for a diverse range of playing styles, making hard courts the most versatile and widely used surface in professional tennis. Novak Djokovic’s adaptability and success on hard courts exemplify how this surface supports an all-around game, combining elements of speed and endurance.
 </p>
 
 
