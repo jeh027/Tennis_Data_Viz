@@ -18,7 +18,7 @@
       d3.csv("https://raw.githubusercontent.com/jeh027/Tennis_Data_Viz/main/tennis_stats_subset.csv").then(data => {
   
         // Filter data for a specific player
-        // const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
+        const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
 
         // X axis: scale and draw:
         svg6.append("g")
@@ -26,7 +26,7 @@
           .attr("class", "myXaxis");
   
         const x = d3.scaleLinear().range([0, width6]);
-        x.domain([0, 30]); // leave out outliers
+        x.domain([0, 50]); // leave out outliers
   
         const xAxis = d3.axisBottom().scale(x);
         
@@ -38,7 +38,7 @@
           .domain(x.domain())
           .thresholds(x.ticks(20));
           
-        const bins1 = histogram(data.filter(d => d.surface == "Grass"));
+        const bins1 = histogram(dataFilter.filter(d => d.surface == "Grass"));
   
         // Y axis: scale and draw:
         const y_max1 = d3.max(bins1, function(d) { return d.length; });
@@ -99,7 +99,7 @@
       d3.csv("https://raw.githubusercontent.com/jeh027/Tennis_Data_Viz/main/tennis_stats_subset.csv").then(data => {
         
         // List of all players
-        // const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
+        const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
         
         // X axis: scale and draw:
         svg7.append("g")
@@ -107,7 +107,7 @@
           .attr("class", "myXaxis")
   
         const x = d3.scaleLinear().range([0, width7]);
-        x.domain([0, 30]); // leave out outliers
+        x.domain([0, 50]); // leave out outliers
   
         const xAxis = d3.axisBottom().scale(x);
   
@@ -119,7 +119,7 @@
           .domain(x.domain())
           .thresholds(x.ticks(20));
   
-        const bins2 = histogram(data.filter(d => d.surface === "Clay"));
+        const bins2 = histogram(dataFilter.filter(d => d.surface === "Clay"));
         
         // Y axis: scale and draw:
         const y_max2 = d3.max(bins2, function(d) { return d.length; });
@@ -181,7 +181,7 @@
       d3.csv("https://raw.githubusercontent.com/jeh027/Tennis_Data_Viz/main/tennis_stats_subset.csv").then(data => {
   
         // List of all players
-        // const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
+        const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
   
         // X axis: scale and draw:
         svg8.append("g")
@@ -189,7 +189,7 @@
           .attr("class", "myXaxis")
   
         const x = d3.scaleLinear().range([0, width8]);
-        x.domain([0, 30]); // leave out outliers
+        x.domain([0, 50]); // leave out outliers
   
         const xAxis = d3.axisBottom().scale(x);
   
@@ -202,7 +202,7 @@
           .thresholds(x.ticks(20)); // 0 to 2.5 no?
         
         // And apply twice this function to data to get the bins
-        const bins3 = histogram(data.filter(d => d.surface == "Hard"));
+        const bins3 = histogram(dataFilter.filter(d => d.surface == "Hard"));
   
         // Y axis: scale and draw:
         const y_max3 = d3.max(bins3, function(d) { return d.length; });
@@ -257,9 +257,16 @@
     });
   </script>
   
-  <h2 class="body-header">High Level Exploratory Analysis</h2>
+  <h2 class="body-header">Case Study</h2>
   
-  <h3 class="title">Distribution of Aces Conditioned On Court Surface</h3>
+  <p class="body-text">
+    Jo-Wilfried Tsonga, born on April 17, 1985, in Le Mans, France, is a retired professional tennis player known for his 
+    powerful playing style and ability to serve well under pressure. He achieved a career-high ATP singles ranking of world No. 5 
+    in February 2012 and won 18 singles titles, including two Masters 1000 titles.
+  </p>
+
+  <h3 class="title">Distribution of Aces Per Court Surface By Jo Wilfried Tsonga</h3>
+
   <div class="hist_container">
     <div id="my_dataviz_6" class="chart"></div>
     <div id="my_dataviz_7" class="chart"></div>
@@ -267,7 +274,8 @@
   </div>
 
   <p class="body-text">
-    From this we can see that, ...
+    Clay courts have a high coefficient of restitution, resulting in a higher and slower bounce, which we can see leads to less aces compared to
+    grass and hard surfaces ...
   </p>
   
   <style>

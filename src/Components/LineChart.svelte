@@ -396,14 +396,17 @@
   });
 </script>
 
-<h1 class="body-header">Individual Player Exploratory Analysis</h1>
+<h1 class="body-header">Exploration</h1>
 <p class="body-text">
   This component is an example of a responsive chart built with Svelte and
   D3.js.
 </p>
 
-<div class="CenterButton">
-  <select id="selectButton"></select>
+<div class="header-container">
+  <h3 class="title">Distribution of Aces Conditioned On Court Surface</h3>
+  <div class="CenterButton">
+    <select id="selectButton"></select>
+  </div>
 </div>
 
 <div class="hist_container">
@@ -420,13 +423,22 @@
     align-items: center;
   }
 
+  .header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  .title {
+    margin-right: 15px;
+  }
+
   .CenterButton {
-      display: flex;
-      justify-content: center;
+    margin-left: 15px;
   }
 
   #selectButton {
-    margin-left: 25px;
-    margin-top: 50px;
+    margin-top: 0;
   }
 </style>
