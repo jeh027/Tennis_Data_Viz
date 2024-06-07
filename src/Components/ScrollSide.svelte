@@ -75,7 +75,11 @@
     },
   };
 
-  $: if (typeof value !== "undefined") target2event[value]();
+
+  $: if (typeof value !== "undefined" && value <= 2) {
+    target2event[value]()
+  };
+
 </script>
 
 <h2 class="body-header">Side Scrolly Example</h2>
@@ -98,10 +102,24 @@
     </div>
     <div class="charts-container">
       <div class="chart-one">
-        <svg id="chart1" />
+        <svg id="chart1" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+          <!-- Tennis Court Lines -->
+          <line x1="15%" y1="-150%" x2="15%" y2="150%" stroke="white" stroke-width="2"/> <!-- left vertical -->
+          <line x1="85%" y1="-150%" x2="85%" y2="150%" stroke="white" stroke-width="2"/> <!-- right vertical -->
+          <line x1="15%" y1="40%" x2="85%" y2="40%" stroke="white" stroke-width="2"/> <!-- middle horizontal -->
+          <line x1="50%" y1="150%" x2="50%" y2="40%" stroke="white" stroke-width="2"/> <!-- center vertical -->
+          <line x1="50%" y1="-150%" x2="50%" y2="-10%" stroke="white" stroke-width="2"/> <!-- vertical -->
+        </svg>
       </div>
       <div class="chart-two">
-        <svg id="chart2" />
+        <svg id="chart2" viewBox="0 0 300 150" xmlns="http://www.w3.org/2000/svg">
+          <!-- Tennis Court Lines -->
+          <line x1="15%" y1="-150%" x2="15%" y2="150%" stroke="white" stroke-width="2"/> <!-- left vertical -->
+          <line x1="85%" y1="-150%" x2="85%" y2="150%" stroke="white" stroke-width="2"/> <!-- right vertical -->
+          <line x1="15%" y1="60%" x2="85%" y2="60%" stroke="white" stroke-width="2"/> <!-- middle horizontal -->
+          <line x1="50%" y1="-150%" x2="50%" y2="60%" stroke="white" stroke-width="2"/> <!-- center vertical -->
+          <line x1="50%" y1="150%" x2="50%" y2="110%" stroke="white" stroke-width="2"/> <!-- vertical -->
+        </svg>
       </div>
     </div>
   </div>
@@ -118,12 +136,12 @@
   .chart-one {
     width: 100%;
     height: 100%;
-    border: 3px solid skyblue;
+    border: 3px solid rgb(255, 255, 255);
   }
   .chart-two {
     width: 100%;
     height: 100%;
-    border: 3px solid coral;
+    border: 3px solid rgb(255, 255, 255);
   }
   /* space after scroll is finished */
   .spacer {
@@ -132,14 +150,15 @@
 
   .charts-container {
     position: sticky;
-    top: 10%;
+    top: 3%;
     display: grid;
-    width: 50%;
+    width: 35%;
+    margin-right: 10%;
     grid-template-columns: 100%;
-    grid-row-gap: 2rem;
+    grid-row-gap: 0.5rem;
     grid-column-gap: 0rem;
     grid-template-rows: repeat(2, 1fr);
-    height: 85vh;
+    height: 95vh;
     border: 3px solid black;
   }
 
