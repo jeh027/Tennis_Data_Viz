@@ -127,7 +127,7 @@
 </script>
 
 
-<h2 class="body-header">How Does The Tennis Court Surface Affect The Speed Of The Ball?</h2>
+<h2 class="title">How Does The Tennis Court Surface Affect The Speed Of The Ball?</h2>
 
 <div class="vertical_container">
     <h3>Tennis Court Surface Coefficient of Friction</h3>
@@ -164,6 +164,12 @@
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
+    }
+
+    .title {
+        display: flex;
+        justify-content: center;
         margin-top: 2rem;
     }
 </style>

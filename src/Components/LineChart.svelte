@@ -396,7 +396,7 @@
   });
 </script>
 
-<h1 class="body-header">Exploration</h1>
+<h2 class="body-header">Exploration</h2>
 <p class="body-text">
   Analyze the differences between surfaces for the distribution of aces per Tournament for your favorite players below!
 </p>
