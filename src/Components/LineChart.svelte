@@ -402,7 +402,7 @@
 </p>
 
 <div class="header-container">
-  <h3 class="title">Distribution of Aces Conditioned On Court Surface</h3>
+  <h3 class="title">Distribution of Aces On Court Surface</h3>
   <div class="CenterButton">
     <select id="selectButton"></select>
   </div>

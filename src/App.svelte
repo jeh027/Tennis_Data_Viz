@@ -10,6 +10,7 @@
   import ScrollSide from "./Components/ScrollSide.svelte";
   import Friction from "./Components/Friction.svelte";
   import Restitution from "./Components/Restitution.svelte";
+  import StackedBar from "./Components/StackedBar.svelte";
 </script>
 
 <Meta />
@@ -19,6 +20,7 @@
 <Friction />
 <Restitution />
 <CaseStudy />
+<StackedBar />
 <LineChart />
 <!-- <ScrollCenter /> -->
 <Conclusion />

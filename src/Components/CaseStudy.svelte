@@ -302,6 +302,7 @@
       justify-content: center;
       flex-direction: center;
       align-items: center;
+      margin-bottom: 2rem;
     }
 
     .title {
