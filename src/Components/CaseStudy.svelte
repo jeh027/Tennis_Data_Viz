@@ -4,7 +4,7 @@
     import 'd3-transition';
   
     const margin6 = {top: 20, right: 30, bottom: 50, left: 60}, // margins just for now
-      width6 = 510 - margin6.left - margin6.right,
+      width6 = 490 - margin6.left - margin6.right,
       height6 = 450 - margin6.top - margin6.bottom;
   
     onMount(() => {
@@ -85,7 +85,7 @@
   
   
     const margin7 = {top: 20, right: 30, bottom: 50, left: 60},
-      width7 = 510 - margin7.left - margin7.right,
+      width7 = 490 - margin7.left - margin7.right,
       height7 = 450 - margin7.top - margin7.bottom;
 
     onMount(() => {
@@ -167,7 +167,7 @@
   
     // set the dimensions and margins of the graph
     const margin8 = {top: 20, right: 30, bottom: 50, left: 60},
-      width8 = 510 - margin8.left - margin8.right,
+      width8 = 490 - margin8.left - margin8.right,
       height8 = 450 - margin8.top - margin8.bottom;
   
     onMount(() => {
@@ -199,7 +199,7 @@
         const histogram = d3.histogram()
           .value(function(d) { return +d.aces; })
           .domain(x.domain())
-          .thresholds(x.ticks(20)); // 0 to 2.5 no?
+          .thresholds(x.ticks(20));
         
         // And apply twice this function to data to get the bins
         const bins3 = histogram(dataFilter.filter(d => d.surface == "Hard"));
@@ -230,13 +230,13 @@
         })
   
         // Handmade legend
-        svg8.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#228B22")
-        svg8.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
-        svg8.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
-        svg8.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
-        svg8.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
-        svg8.append("text").attr("x", 390).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
-        svg8.append("text").attr("x", 315).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
+        svg8.append("circle").attr("cx",350).attr("cy",20).attr("r", 6).style("fill", "#228B22")
+        svg8.append("circle").attr("cx",350).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
+        svg8.append("circle").attr("cx",350).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
+        svg8.append("text").attr("x", 370).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg8.append("text").attr("x", 370).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg8.append("text").attr("x", 370).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg8.append("text").attr("x", 300).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
 
         // x and y axis labels
         svg8.append("text")

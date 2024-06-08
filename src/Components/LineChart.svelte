@@ -4,7 +4,7 @@
   import 'd3-transition';
 
   const margin = {top: 20, right: 30, bottom: 50, left: 60}, // margins just for now
-    width = 510 - margin.left - margin.right,
+    width = 490 - margin.left - margin.right,
     height = 450 - margin.top - margin.bottom;
 
   onMount(() => {
@@ -142,7 +142,7 @@
 
 
   const margin2 = {top: 20, right: 30, bottom: 50, left: 60},
-    width2 = 510 - margin2.left - margin2.right,
+    width2 = 490 - margin2.left - margin2.right,
     height2 = 450 - margin2.top - margin2.bottom;
 
   function functionFromSecondFile(selectedOption) {
@@ -265,7 +265,7 @@
 
   // set the dimensions and margins of the graph
   const margin3 = {top: 20, right: 30, bottom: 50, left: 60},
-    width3 = 510 - margin3.left - margin3.right,
+    width3 = 490 - margin3.left - margin3.right,
     height3 = 450 - margin3.top - margin3.bottom;
   
   function functionFromThirdFile(selectedOption) {
@@ -369,13 +369,13 @@
     })
 
     // Handmade legend
-    svg3.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#228B22")
-    svg3.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
-    svg3.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
-    svg3.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 390).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
-    svg3.append("text").attr("x", 315).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
+    svg3.append("circle").attr("cx",350).attr("cy",20).attr("r", 6).style("fill", "#228B22")
+    svg3.append("circle").attr("cx",350).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
+    svg3.append("circle").attr("cx",350).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
+    svg3.append("text").attr("x", 370).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 370).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 370).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
+    svg3.append("text").attr("x", 300).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
 
     // x and y axis labels
     svg3.append("text")
@@ -427,7 +427,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 0rem;
   }
 
   .title {
@@ -436,9 +436,10 @@
 
   .CenterButton {
     margin-left: 15px;
+    margin-top: 30px;
   }
 
   #selectButton {
-    margin-top: 0;
+    height: 2rem;
   }
 </style>

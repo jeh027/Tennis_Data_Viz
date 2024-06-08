@@ -46,7 +46,6 @@
 
                 // Filter data for a specific player
                 const dataFilter = data.filter(d => d.name == selectedOption);
-                console.log(dataFilter);
 
                 // List of subgroups (for stack)
                 const subgroups = data.columns.slice(2, 4); // [won, lost]
@@ -82,7 +81,6 @@
                 const stackedData = d3.stack()
                     .keys(subgroups)
                     (dataFilter);
-                console.log(stackedData);
 
                 // Create a tooltip
                 const tooltip = d3.select("#my_dataviz_9")
@@ -192,5 +190,10 @@
 
     #StackButton {
     margin-top: 0;
+    margin-top: 30px;
+    }
+
+    #StackButton {
+        height: 2rem;
     }
 </style>
