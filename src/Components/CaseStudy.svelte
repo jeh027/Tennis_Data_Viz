@@ -61,7 +61,7 @@
           .attr("transform", function(d) { return "translate(" + x(d.x0) + "," + y(d.length) + ")"; })
           .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
           .attr("height", function(d) { return height6 - y(d.length); })
-          .style("fill", "#3AA536")
+          .style("fill", "#228B22")
           .style("opacity", 0.7)
       })
   
@@ -142,7 +142,7 @@
           .attr("transform", function(d) { return `translate(${x(d.x0)}, ${y(d.length)})`})
           .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
           .attr("height", function(d) { return height7 - y(d.length); })
-          .style("fill", "#404080")
+          .style("fill", "#d2691e")
           .style("opacity", 0.7)
       })
   
@@ -230,8 +230,8 @@
       })
   
       // Handmade legend
-      svg8.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#3AA536")
-      svg8.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#404080")
+      svg8.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#228B22")
+      svg8.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
       svg8.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
       svg8.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
       svg8.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
@@ -254,7 +254,10 @@
         .attr("dy", ".75em")
         .attr("transform", "rotate(-90)")
         .text("Number of Tournaments");
+        
     });
+
+
   </script>
   
   <h2 class="body-header">Case Study: Jo-Wilfried Tsonga</h2>

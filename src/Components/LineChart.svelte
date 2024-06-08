@@ -82,7 +82,7 @@
         .attr("transform", function(d) { return "translate(" + x(d.x0) + "," + y(d.length) + ")"; })
         .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
         .attr("height", function(d) { return height - y(d.length); })
-        .style("fill", "#3AA536")
+        .style("fill", "#228B22")
         .style("opacity", 0.7)
       
       function update(selectedOption) {
@@ -117,7 +117,7 @@
           .attr("transform", function(d) { return `translate(${x(d.x0)}, ${y(d.length)})`})
           .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
           .attr("height", function(d) { return height - y(d.length); })
-          .style("fill", "#3AA536") // change colors later
+          .style("fill", "#228B22") // change colors later
           .style("opacity", 0.7);
       }
     })
@@ -204,7 +204,7 @@
         .attr("transform", function(d) { return `translate(${x(d.x0)}, ${y(d.length)})`})
         .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
         .attr("height", function(d) { return height2 - y(d.length); })
-        .style("fill", "#404080")
+        .style("fill", "#d2691e")
         .style("opacity", 0.7)
 
       // @ts-ignore
@@ -239,7 +239,7 @@
           .attr("transform", function(d) { return `translate(${x(d.x0)}, ${y(d.length)})`})
           .attr("width", function(d) { return x(d.x1) - x(d.x0) -1 ; })
           .attr("height", function(d) { return height2 - y(d.length); })
-          .style("fill", "#404080")
+          .style("fill", "#d2691e")
           .style("opacity", 0.7);
       }
     })
@@ -369,8 +369,8 @@
     })
 
     // Handmade legend
-    svg3.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#3AA536")
-    svg3.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#404080")
+    svg3.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#228B22")
+    svg3.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
     svg3.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
     svg3.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
     svg3.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
@@ -402,7 +402,7 @@
 </p>
 
 <div class="header-container">
-  <h3 class="title">Distribution of Aces On Court Surface</h3>
+  <h3 class="title">Distribution of Aces Per Court Surface</h3>
   <div class="CenterButton">
     <select id="selectButton"></select>
   </div>

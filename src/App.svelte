@@ -20,7 +20,7 @@
 <Friction />
 <Restitution />
 <CaseStudy />
-<StackedBar />
+<!-- <StackedBar /> -->
 <LineChart />
 <!-- <ScrollCenter /> -->
 <Conclusion />
