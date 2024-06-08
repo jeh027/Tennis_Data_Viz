@@ -63,24 +63,24 @@
           .attr("height", function(d) { return height6 - y(d.length); })
           .style("fill", "#228B22")
           .style("opacity", 0.7)
-      })
+        })
   
-      // x and y axis labels
-      svg6.append("text")
-        .attr("class", "x label")
-        .attr("text-anchor", "end")
-        .attr("x", width8 - 120)
-        .attr("y", height8 + 40)
-        .text("Aces Per Tournament");
-        
-      svg6.append("text")
-        .attr("class", "y label")
-        .attr("text-anchor", "end")
-        .attr("x", -80)
-        .attr("y", -45)
-        .attr("dy", ".75em")
-        .attr("transform", "rotate(-90)")
-        .text("Number of Tournaments");
+        // x and y axis labels
+        svg6.append("text")
+            .attr("class", "x label")
+            .attr("text-anchor", "end")
+            .attr("x", width6 - 150)
+            .attr("y", height6 + 40)
+            .text("Aces Per Match");
+            
+        svg6.append("text")
+            .attr("class", "y label")
+            .attr("text-anchor", "end")
+            .attr("x", -110)
+            .attr("y", -45)
+            .attr("dy", ".75em")
+            .attr("transform", "rotate(-90)")
+            .text("Number of Matches");
     });
   
   
@@ -144,24 +144,24 @@
           .attr("height", function(d) { return height7 - y(d.length); })
           .style("fill", "#d2691e")
           .style("opacity", 0.7)
-      })
+        })
   
-      // x and y axis labels
-      svg7.append("text")
-        .attr("class", "x label")
-        .attr("text-anchor", "end")
-        .attr("x", width8 - 120)
-        .attr("y", height8 + 40)
-        .text("Aces Per Tournament");
-        
-      svg7.append("text")
-        .attr("class", "y label")
-        .attr("text-anchor", "end")
-        .attr("x", -80)
-        .attr("y", -45)
-        .attr("dy", ".75em")
-        .attr("transform", "rotate(-90)")
-        .text("Number of Tournaments");
+        // x and y axis labels
+        svg7.append("text")
+            .attr("class", "x label")
+            .attr("text-anchor", "end")
+            .attr("x", width7 - 150)
+            .attr("y", height7 + 40)
+            .text("Aces Per Match");
+            
+        svg7.append("text")
+            .attr("class", "y label")
+            .attr("text-anchor", "end")
+            .attr("x", -110)
+            .attr("y", -45)
+            .attr("dy", ".75em")
+            .attr("transform", "rotate(-90)")
+            .text("Number of Matches");
     });
   
   
@@ -227,34 +227,33 @@
           .attr("height", function(d) { return height8 - y(d.length); })
           .style("fill", "#0F6F9F")
           .style("opacity", 0.7)
-      })
+        })
   
-      // Handmade legend
-      svg8.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#228B22")
-      svg8.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
-      svg8.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
-      svg8.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
-      svg8.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
-      svg8.append("text").attr("x", 390).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
-      svg8.append("text").attr("x", 315).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
-  
-      // x and y axis labels
-      svg8.append("text")
-        .attr("class", "x label")
-        .attr("text-anchor", "end")
-        .attr("x", width8 - 120)
-        .attr("y", height8 + 40)
-        .text("Aces Per Tournament");
-        
-      svg8.append("text")
-        .attr("class", "y label")
-        .attr("text-anchor", "end")
-        .attr("x", -80)
-        .attr("y", -45)
-        .attr("dy", ".75em")
-        .attr("transform", "rotate(-90)")
-        .text("Number of Tournaments");
-        
+        // Handmade legend
+        svg8.append("circle").attr("cx",370).attr("cy",20).attr("r", 6).style("fill", "#228B22")
+        svg8.append("circle").attr("cx",370).attr("cy",50).attr("r", 6).style("fill", "#d2691e")
+        svg8.append("circle").attr("cx",370).attr("cy",80).attr("r", 6).style("fill", "#0F6F9F")
+        svg8.append("text").attr("x", 390).attr("y", 20).text("Grass").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg8.append("text").attr("x", 390).attr("y", 50).text("Clay").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg8.append("text").attr("x", 390).attr("y", 80).text("Hard").style("font-size", "15px").attr("alignment-baseline","middle")
+        svg8.append("text").attr("x", 315).attr("y", -10).text("Court Surface").style("font-size", "15px").style("font-weight", "bold").attr("alignment-baseline","middle")
+
+        // x and y axis labels
+        svg8.append("text")
+            .attr("class", "x label")
+            .attr("text-anchor", "end")
+            .attr("x", width8 - 150)
+            .attr("y", height8 + 40)
+            .text("Aces Per Match");
+            
+        svg8.append("text")
+            .attr("class", "y label")
+            .attr("text-anchor", "end")
+            .attr("x", -110)
+            .attr("y", -45)
+            .attr("dy", ".75em")
+            .attr("transform", "rotate(-90)")
+            .text("Number of Matches");
     });
 
 

@@ -1,46 +1,3 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .tooltip {
-            position: absolute;
-            background-color: white;
-            border: 1px solid;
-            border-radius: 5px;
-            padding: 10px;
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 0.2s;
-        }
-
-        .vertical_container {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
-        }
-
-        .chart {
-            margin: 10px;
-            width: 550px;
-            height: 400px;
-        }
-    </style>
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-</head>
-
-<div class="vertical_container">
-    <h3>Distribution of Tournament Outcomes by Jo-Wilfried Tsonga</h3>
-    <div id="my_dataviz_9" class="chart"></div>
-</div>
-
-<br>
-<p class="body-text">
-    ...
-</p>
-
 <script>
     import { onMount } from 'svelte';
     import * as d3 from 'd3';
@@ -62,7 +19,7 @@
         d3.csv("https://raw.githubusercontent.com/jeh027/Tennis_Data_Viz/main/win_loss.csv").then(function(data) {
 
             // List of all players
-            const dataFilter = data.filter(d => d.name == 'Jo Wilfried Tsonga');
+            const dataFilter = data.filter(d => d.name == 'Rafael Nadal');
 
             // List of subgroups = header of the csv files = soil condition here (for stack)
             const subgroups = data.columns.slice(2, 4); // [won, lost]
@@ -110,18 +67,18 @@
                 tooltip
                 .html("Outcome: " + subgroupName + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1);
-                };
+            };
 
             const mousemove = function(event, d) {
                 tooltip
                 .style("left", (event.pageX + 10) + "px")
                 .style("top", (event.pageY - 40) + "px");
-                };
+            };
 
             const mouseleave = function(event, d) {
                 tooltip
                 .style("opacity", 0);
-                };
+            };
 
             // Show the bars
             svg9.append("g")
@@ -162,3 +119,49 @@
             .text("Proportion");
     });
 </script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .tooltip {
+            position: absolute;
+            background-color: white;
+            border: 1px solid;
+            border-radius: 5px;
+            padding: 10px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .vertical_container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .chart {
+            margin: 10px;
+            width: 550px;
+            height: 400px;
+        }
+    </style>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+</head>
+
+
+<div class="vertical_container">
+    <h3>Distribution of Tournament Outcomes by Rafael Nadal</h3>
+    <div id="my_dataviz_9" class="chart"></div>
+</div>
+
+<br>
+
+<p class="body-text">
+    ...
+</p>

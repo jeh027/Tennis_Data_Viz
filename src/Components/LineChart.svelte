@@ -126,18 +126,18 @@
     svg.append("text")
       .attr("class", "x label")
       .attr("text-anchor", "end")
-      .attr("x", width - 120)
+      .attr("x", width - 150)
       .attr("y", height + 40)
-      .text("Aces Per Tournament");
+      .text("Aces Per Match");
         
     svg.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("x", -80)
+      .attr("x", -110)
       .attr("y", -45)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Number of Tournaments");
+      .text("Number of Matches");
   });
 
 
@@ -248,18 +248,18 @@
     svg2.append("text")
       .attr("class", "x label")
       .attr("text-anchor", "end")
-      .attr("x", width2 - 120)
+      .attr("x", width2 - 150)
       .attr("y", height2 + 40)
-      .text("Aces Per Tournament");
+      .text("Aces Per Match");
         
     svg2.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("x", -80)
+      .attr("x", -110)
       .attr("y", -45)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Number of Tournaments");
+      .text("Number of Matches");
   });
 
 
@@ -381,18 +381,18 @@
     svg3.append("text")
       .attr("class", "x label")
       .attr("text-anchor", "end")
-      .attr("x", width3 - 120)
+      .attr("x", width3 - 150)
       .attr("y", height3 + 40)
-      .text("Aces Per Tournament");
+      .text("Aces Per Match");
         
     svg3.append("text")
       .attr("class", "y label")
       .attr("text-anchor", "end")
-      .attr("x", -80)
+      .attr("x", -110)
       .attr("y", -45)
       .attr("dy", ".75em")
       .attr("transform", "rotate(-90)")
-      .text("Number of Tournaments");
+      .text("Number of Matches");
   });
 </script>
 
@@ -420,6 +420,7 @@
     justify-content: center;
     flex-direction: center;
     align-items: center;
+    margin-bottom: 5rem;
   }
 
   .header-container {
