@@ -127,49 +127,58 @@
 </script>
 
 
-<h2 class="title">How Does The Tennis Court Surface Affect The Speed Of The Ball?</h2>
+<h2 class="title">How Does The Court Surface Affect The Speed Of The Ball?</h2>
 
-<div class="vertical_container">
-    <h3>Tennis Court Surface Coefficient of Friction</h3>
+<div class="box_container">
+    <h3>Coefficient of Friction Across Tennis Court Surfaces</h3>
     <div id="my_dataviz_4" class="chart"></div>
 </div>
 
 <br>
 <p class="body-text">
-    The type of tennis court surface significantly influences the speed of the ball, shaping the game's dynamics and the strategies players employ. The coefficient of friction is a key factor in this context. It measures how much grip or resistance a surface offers to the ball's motion. A surface with a higher coefficient of friction, such as clay, causes the ball to decelerate more after bouncing. This deceleration results from the increased friction force between the ball and the court, leading to a slower ball speed after the bounce.
+    The type of tennis court surface significantly influences the speed of the ball, shaping the game's dynamics and the strategies players employ. 
+    The coefficient of friction is a key factor in this context. It measures how much grip or resistance a surface offers to the ball's motion. 
+    A surface with a higher coefficient of friction, such as clay, causes the ball to decelerate more after bouncing. This deceleration results from 
+    the increased friction force between the ball and the court, leading to a slower ball speed after the bounce.
 </p>
 <br>
 <p class="body-text">
-    Imagine a match on a clay court: the ball slows down, giving players more time to reach it, which often results in longer, more strategic rallies. Players who excel on clay, like Rafael Nadal, master the art of constructing points with patience and precision, using the slower surface to their advantage.
+    Imagine a match on a clay court: the ball slows down, giving players more time to reach it, which often results in longer, more strategic rallies. 
+    Players who excel on clay, like Rafael Nadal, master the art of constructing points with patience and precision, using the slower surface to their 
+    advantage.
 </p>
 <br>
 <p class="body-text">
-    In contrast, grass courts have a lower coefficient of friction, causing the ball to retain more of its speed after bouncing. The slick, low-friction surface makes the ball skid and shoot through the court. Picture the fast-paced, serve-and-volley style of play typical at Wimbledon, where players like Roger Federer use the speed to dominate with quick, aggressive shots.
+    In contrast, grass courts have a lower coefficient of friction, causing the ball to retain more of its speed after bouncing. The slick, low-friction 
+    surface makes the ball skid and shoot through the court. Picture the fast-paced, serve-and-volley style of play typical at Wimbledon, where players 
+    like Roger Federer use the speed to dominate with quick, aggressive shots.
 </p>
 <br>
 <p class="body-text">
-    Hard courts fall in the middle, offering a balanced coefficient of friction. This balance allows for a diverse range of playing styles, making hard courts the most versatile and widely used surface in professional tennis. Novak Djokovic’s adaptability and success on hard courts exemplify how this surface supports an all-around game, combining elements of speed and endurance.
+    Hard courts fall in the middle, offering a balanced coefficient of friction. This balance allows for a diverse range of playing styles, making hard 
+    courts the most versatile and widely used surface in professional tennis. Novak Djokovic’s adaptability and success on hard courts exemplify how this 
+    surface supports an all-around game, combining elements of speed and endurance.
 </p>
 
 
 <style>
-    .chart {
-        margin: 10px;
-        width: 550px; /* Match the container width */
-        height: 400px; /* Match the container height */
+    .title {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
     }
 
-    .vertical_container {
+    .chart {
+        margin: 10px;
+        width: 550px; 
+        height: 400px;
+    }
+
+    .box_container {
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        margin-top: 2rem;
-    }
-
-    .title {
-        display: flex;
-        justify-content: center;
         margin-top: 2rem;
     }
 </style>

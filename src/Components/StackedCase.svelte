@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
     import * as d3 from 'd3';
 
-    const margin9 = {top: 20, right: 30, bottom: 50, left: 60},
+    const margin9 = {top: 10, right: 30, bottom: 50, left: 60},
         width9 = 510 - margin9.left - margin9.right,
         height9 = 450 - margin9.top - margin9.bottom;
 
@@ -156,7 +156,7 @@
 
 
 <div class="vertical_container">
-    <h3>Distribution of Tournament Outcomes by Rafael Nadal</h3>
+    <h3>Distribution of Tournament Outcomes By Rafael Nadal</h3>
     <div id="my_dataviz_9" class="chart"></div>
 </div>
 
@@ -165,3 +165,4 @@
 <p class="body-text">
     ...
 </p>
+
