@@ -65,7 +65,7 @@
                 const subgroupName = d3.select(this.parentNode).datum().key;
                 const subgroupValue = d.data[subgroupName];
                 tooltip
-                .html("Outcome: " + subgroupName + "<br>" + "Value: " + subgroupValue)
+                .html("Match Outcome: " + subgroupName + "<br>" + "Value: " + subgroupValue)
                 .style("opacity", 1);
             };
 
@@ -105,9 +105,9 @@
         svg9.append("text")
             .attr("class", "x label")
             .attr("text-anchor", "end")
-            .attr("x", width9 - 120)
+            .attr("x", width9 - 150)
             .attr("y", height9 + 40)
-            .text("Tennis Court Surface");
+            .text("Court Surface");
             
         svg9.append("text")
             .attr("class", "y label")
@@ -136,13 +136,19 @@
             transition: opacity 0.2s;
         }
 
-        .vertical_container {
+        .title {
+            display: flex;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+
+        .stack_container {
             display: flex;
             justify-content: center;
             flex-direction: column;
             align-items: center;
-            margin-top: 2rem;
-            margin-bottom: 2rem;
+            margin-top: 0rem;
+            margin-bottom: 4rem;
         }
 
         .chart {
@@ -155,14 +161,25 @@
 </head>
 
 
-<div class="vertical_container">
-    <h3>Distribution of Tournament Outcomes By Rafael Nadal</h3>
+<h2 class="body-header">Case Study: Rafael Nadal</h2>
+
+<p class="body-text">
+    Rafael Nadal is a Spanish professional tennis player widely regarded as one of the greatest players of all time. He has won a record 22 
+    Grand Slam singles titles, including a record 14 French Open titles, and held the world No. 1 ranking for 209 weeks. Known for his dominance 
+    on clay courts, earning him the nickname "King of Clay," Nadal's game is characterized by his powerful topspin forehand, incredible 
+    defensive skills, mental toughness, and ability to grind out victories in grueling matches.
+</p>
+
+<div class="stack_container">
+    <h3 class="title">Distribution of Match Outcomes Per Court Surface By Rafael Nadal</h3>
     <div id="my_dataviz_9" class="chart"></div>
 </div>
 
-<br>
-
 <p class="body-text">
-    ...
+    From the visualization above, it is undoubtably evident that Nadal is dominant in tennis. However, when looking at the distribution in greater 
+    detail, it is difficult not to notice Nadal's exceptional performance on clay courts, winning 97.9% of all his matches. This is because clay 
+    courts amplify Nadal's strengths and skill set. His ability to generate immense topspin, especially on his looping forehand, makes it incredibly 
+    difficult for opponents to handle the high bounces on clay. Furthermore, the slower pace of clay complements Nadal's exceptional movement, court 
+    coverage, and defensive skills, allowing him to extend rallies and wear down opponents physically and mentally. Nadal's skill set in conjunction
+    with the qualities of clay courts allow him to dominate opponents in a way unmatched on grass or hard courts.
 </p>
-

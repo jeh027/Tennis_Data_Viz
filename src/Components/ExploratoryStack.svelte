@@ -94,7 +94,7 @@
                     const subgroupName = d3.select(this.parentNode).datum().key;
                     const subgroupValue = d.data[subgroupName];
                     tooltip
-                    .html("Outcome: " + subgroupName + "<br>" + "Value: " + subgroupValue)
+                    .html("Match Outcome: " + subgroupName + "<br>" + "Value: " + subgroupValue)
                     .style("opacity", 1);
                 };
 
@@ -136,9 +136,9 @@
         svg10.append("text")
             .attr("class", "x label")
             .attr("text-anchor", "end")
-            .attr("x", width10 - 120)
+            .attr("x", width10 - 150)
             .attr("y", height10 + 40)
-            .text("Tennis Court Surface");
+            .text("Court Surface");
             
         svg10.append("text")
             .attr("class", "y label")
@@ -156,7 +156,7 @@
 
 
 <div class="header-container">
-    <h3 class="title">Distribution of Outcomes Per Court Surface</h3>
+    <h3 class="title">Distribution of Match Outcomes Per Court Surface</h3>
     <div class="CenterButton">
         <select id="StackButton"></select>
     </div>
@@ -173,13 +173,13 @@
     justify-content: center;
     flex-direction: center;
     align-items: center;
+    margin-bottom: 2rem;
     }
 
     .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
     }
 
     .title {

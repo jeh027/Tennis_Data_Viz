@@ -6,8 +6,16 @@
   </p>
   <div class="resource-list">
     <p class="resource-item">
-      <a class="on-end" href="https://d3js.org/">ITF CLASSIFIED SURFACES & RECOGNIZED COURTS 2024</a>
+      <a class="on-end" href="https://www.itftennis.com/media/11695/2024-technical-booklet.pdf?fbclid=IwAR0lRqdC5IUXMH71oNj6uwTyHq60t9cWYLFGGOHS178QGkOALgRrkg9fKD4">ITF Classified Surfaces & Recognized Courts 2024</a>
       <span>(International Tennis Federation)</span>
+    </p>
+    <p class="resource-item">
+      <a class="on-end" href="https://www.ertheo.com/blog/en/type-tennis-courts/">Type of tennis courts and their influence on ball bounce & speed</a>
+      <span>(Ertheo)</span>
+    </p>
+    <p class="resource-item">
+      <a class="on-end" href="https://www.nytimes.com/athletic/5500866/2024/05/21/rafael-nadal-clay-opponent-experience/">What’s it like to play Rafael Nadal on clay? We asked Djokovic, Ruud and Dimitrov</a>
+      <span>(Charlie Eccleshare)</span>
     </p>
     <p class="resource-item">
       <a class="on-end" href="https://d3js.org/">D3.js</a>

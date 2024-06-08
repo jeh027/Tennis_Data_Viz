@@ -398,7 +398,7 @@
 
 <h2 class="body-header">Exploration</h2>
 <p class="body-text">
-  Analyze the differences between surfaces for the distribution of aces per Tournament for your favorite players below!
+  Analyze how different court surfaces affect your favorite players below!
 </p>
 
 <div class="header-container">
@@ -420,14 +420,14 @@
     justify-content: center;
     flex-direction: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
   }
 
   .header-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
+    margin-top: 1rem;
   }
 
   .title {

@@ -110,9 +110,9 @@
         svg4.append("text")
             .attr("class", "x label")
             .attr("text-anchor", "end")
-            .attr("x", width4 - 150)
+            .attr("x", width4 - 170)
             .attr("y", height4 + 40)
-            .text("Tennis Court Surface");
+            .text("Court Surface");
             
         svg4.append("text")
             .attr("class", "y label")
